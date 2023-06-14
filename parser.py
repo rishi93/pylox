@@ -20,11 +20,11 @@ class Binary:
 
         match self.operator.type:
             case TokenType.MINUS:
-                return float(self.left) - float(self.right)
+                return float(left) - float(right)
             case TokenType.SLASH:
-                return float(self.left) / float(self.right)
+                return float(left) / float(right)
             case TokenType.STAR:
-                return float(self.left) * float(self.right)
+                return float(left) * float(right)
             case TokenType.PLUS:
                 if type(left) is float and type(right) is float:
                     return float(left) + float(right)
