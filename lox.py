@@ -28,9 +28,9 @@ def run(source):
     scanner = Scanner(source)
     tokens = scanner.scanTokens()
 
-    for token in tokens:
-        # Just print the tokens for now
-        print(token)
+    # Just print the tokens for now
+    # for token in tokens:
+    #     print(token)
 
     # Second step is parsing
     # Taking a list of tokens and
